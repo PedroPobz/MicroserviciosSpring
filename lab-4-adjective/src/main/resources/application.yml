@@ -1,0 +1,14 @@
+---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
+---
+words: reasonable,leaky,suspicious,ordinary,unlikely
+---
+server:
+  port: 0
+---
+spring:
+  application:
+    name: lab-4-adjective
